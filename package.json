@@ -1,0 +1,40 @@
+{
+    "name": "amstradbasic",
+    "displayName": "AMSTRAD-Basic",
+    "description": "LOCOMOTIVE AMSTRAD BASIC syntax highlighting",
+    "version": "0.0.1",
+    "publisher": "dfreniche",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "icon": "images/Locomotive_BASIC_amstrad_cpc.PNG",
+    "categories": [
+        "Programming Languages"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dfreniche/amstradbasic-vscode.git"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "amstradbasic",
+                "aliases": [
+                    "AMSTRAD-Basic",
+                    "amstradbasic"
+                ],
+                "extensions": [
+                    ".bas"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "amstradbasic",
+                "scopeName": "source.amstradbasic",
+                "path": "./syntaxes/amstradbasic.tmLanguage.json"
+            }
+        ]
+    }
+}
