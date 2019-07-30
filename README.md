@@ -4,6 +4,9 @@ LOCOMOTIVE SOFTWARE AMSTRAD CPC BASIC syntax highlighting for Visual Studio Code
 
 Supports all reserved words from the AMSTRAD CPC Locomotive BASIC range.
 
+
+![Sample showing colorized code](images/basic.png)
+
 ## Basic
 
 ### Statements
