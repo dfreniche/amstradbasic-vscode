@@ -7,6 +7,10 @@ Supports all reserved words from the AMSTRAD CPC Locomotive BASIC range.
 
 ![Sample showing colorized code](images/basic.png)
 
+Best results when also using a [CPC font](https://fonts2u.com/download/amstrad-cpc464-regular.font) ;-)
+
+![Sample showing code with AMSTRAD CPC code](images/cpc-font.png)
+
 ## Basic
 
 ### Statements
